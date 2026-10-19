@@ -1,6 +1,53 @@
 {
   "releases": [
     {
+      "id": 8,
+      "title": "Release 8",
+      "date": "2026-10-19",
+      "sections": [
+        {
+          "name": "New",
+          "items": [
+            "The Dyrhald Launcher: a proper app in place of the old Play Dyrhald batch file. It shows what's new and whether the servers are up, downloads updates with a progress bar, keeps itself up to date, and has a Repair button that re-checks every game file.",
+            "Getting it: download Dyrhald-Launcher.zip (attached on Discord) and unzip it into your game folder, or into an empty folder for a fresh install, then run Dyrhald Launcher.exe. After that it updates itself.",
+            "Dens have a server of their own: your Den door takes you there and back to the door you came in by, and your meal, Rested, charm cooldown and quest timers come with you.",
+            "Bell Ledge: a new-player introduction with its own private training creatures, walking you through your knife, cutting kelp, making a Kelp Poultice and your first fight.",
+            "Winded: a combat move that empties your O2 leaves you doubled over and gasping for a moment, unable to swing, shoot, dash or block until you catch your breath.",
+            "Quest tracking: a new quest is tracked on your HUD, compass and maps; Track and Untrack it in the journal.",
+            "Den stations have markers: a ring on the sand, a name tag when you're near, and a hologram where one isn't built yet.",
+            "Kelp Poultices can be made by hand from your bags' Crafting tab, no station needed.",
+            "The XP bar is always on screen, as a strip above your bars."
+          ]
+        },
+        {
+          "name": "Changed",
+          "items": [
+            "The game is now less than half the size on disk (about 1.5 GB, was 3.7 GB), and future updates download only what changed, often just a few MB.",
+            "This update is a full download one more time (about 1.5 GB) while the game moves to the new layout.",
+            "The launcher now clears out old game files it no longer needs, freeing about 3 GB on your drive.",
+            "Up to 80 players per world server (was 8).",
+            "Stamina is gone: O2 is the one pool for breathing, swimming and fighting.",
+            "Swings and blocks cost more O2 when you chain them (one and a half times, then more than double), back to normal after a short pause.",
+            "Low-level creatures are a bit tougher: half again as much health at level 1, fading to normal by level 20.",
+            "Crafting is simpler: pick Best quality or Use up low quality, and the game picks the stacks for you, from your bags and your Den storage.",
+            "Chat has a backing behind it so it's easier to read.",
+            "The Drowned Light is bigger and set deeper into the seabed, with a proper inside.",
+            "The big tube sponges are solid now; you no longer swim through them.",
+            "The Rested message has a backing so it's easier to read."
+          ]
+        },
+        {
+          "name": "Fixed",
+          "items": [
+            "The What's new screen no longer opens over the new-player introduction.",
+            "Eels' tails no longer kink and bend the wrong way.",
+            "The Crag Puffer in the Rimlands puffs up and stings like a puffer instead of bolting like a small fish.",
+            "Den doors take you to your own home door, not a stray copy."
+          ]
+        }
+      ]
+    },
+    {
       "id": 7,
       "title": "Release 7",
       "date": "2026-10-19",
@@ -11,13 +58,19 @@
             "Carving: creatures now drop their loot when you carve them, and everyone who helped gets their own share.",
             "Hearths: you wake at the nearest hearth you've found when you're knocked out.",
             "Ammo pouches are kept by the server, and carving creatures can give you scrap.",
-            "Poison and bleeding build up from bites and spines; cure them with a Kelp Poultice or a Patch Bandage.",
+            "An out-of-ammo hint tells you when a gun is empty and what it needs.",
+            "Poison and bleeding build up from bites, fangs and spines; cure them with the new Kelp Poultice or a Patch Bandage, which no longer needs scrap.",
             "Crafting: station recipe lists, a search box, categories, and an ingredient picker that shows the quality you'll get.",
             "The Drowned Light: a sunken lighthouse with quest finds inside.",
             "Dropped items and anything that doesn't fit in your bags land as pouches in the world.",
             "Den upgrades take what they need straight from your storage chest.",
             "Settings: pick your screen resolution (with Keep or Revert) and customise your crosshair.",
-            "A What's new screen (this one), new music, and kelp veins to gather."
+            "A What's new screen, and new music.",
+            "Bags-full notices: the server tells you when something didn't fit, and it lands as a pouch beside you.",
+            "Giant and bull kelp have new veined leaves.",
+            "Crafting stations play a working animation when you use them.",
+            "Missing skill, adaptation and item icons are added.",
+            "Contracts are back on the contract board, daily and weekly."
           ]
         },
         {
@@ -26,7 +79,18 @@
             "Named rare creatures are much tougher (three times the health), and at most two are out at a time.",
             "Chat is easier to read; only lines starting with / are emotes.",
             "Clearer XP and loot text, and backings behind on-screen prompts.",
-            "Updates are now required: when a new release is out, the game asks you to restart so the launcher can update you."
+            "Updates are now required: when a new release is out, the game asks you to restart so the launcher can update you.",
+            "If you lose your connection, the game stops and shows a Disconnected screen with the reason, Reconnect and Quit.",
+            "Older characters are moved over to the new gear kit automatically.",
+            "At the edge of the map, a current pushes you gently back.",
+            "Combat controls: with a gun out, right mouse aims and zooms; with a melee weapon, right mouse blocks; heavy swings hold at the full backswing.",
+            "The camera can pull back at most 4 m.",
+            "Full-piece wetsuits are no longer craftable.",
+            "Red \"!\" alert markers only show for creatures within 40 m (they used to show from across the map, even in your Den).",
+            "Quality merging: clicking never merges stacks of different quality; dragging asks first (or merges quietly if you ticked \"don't show\").",
+            "Station screens: Use and Upgrade are separate tabs, tooltips draw on top, and repairs are done at the bench only.",
+            "Named rares come and go on staggered timers.",
+            "The server limits damage: hits faster or harder than your weapon allows are cut down."
           ]
         },
         {
@@ -35,9 +99,11 @@
             "Invisible creatures that could still hit you.",
             "Being pushed back or kicked for brushing against walls.",
             "The sword plunge exploit.",
-            "The Shrine of Echoes step, copper ore's tool, and feet sinking into the sand.",
-            "NPCs in Nim and Meridian walking through things.",
-            "Chat sending only to players who are connected."
+            "The Shrine of Echoes step, and copper ore's tool.",
+            "Nim in Kelpwatch and townsfolk in Meridian no longer walk or stand inside crates and props.",
+            "Chat messages now send properly; plain text was being mistaken for an unknown emote.",
+            "Feet no longer sink into the sand after swims, dives and dashes.",
+            "Nessa's crab pot and the Hollow Spine stone can be reached again."
           ]
         }
       ]
