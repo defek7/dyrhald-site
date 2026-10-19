@@ -1,0 +1,45 @@
+{
+  "releases": [
+    {
+      "id": 6,
+      "title": "Release 6",
+      "date": "2026-10-18",
+      "sections": [
+        {
+          "name": "New",
+          "items": [
+            "Dyrhald is now online-only: your character lives on the server, so it's the same wherever you log in.",
+            "New guns, and ammo pouches to carry more shots.",
+            "Unique items: one-of-a-kind finds with their own looks and bonuses.",
+            "Quality and rarity on what you gather and craft: better materials make better gear.",
+            "The human kit: humans breathe and dive with gear that grows with them.",
+            "Character looks: choose how your diver looks when you make them.",
+            "Quick sell from your Den: right-click anything in your bags or storage chest and sell it at a trader's price.",
+            "The auction: right-click an item and list it for other players, then collect your earnings in the inventory's Auction tab.",
+            "The Diver's Handbook: a page for each thing you learn, unlocked as you meet it.",
+            "Stats, achievements and leaderboards, in the inventory screen.",
+            "Hearth respawn: set your hearth at a town's cooking fire, and wake there if you're knocked out.",
+            "Press F8 to send us a bug report straight from the game."
+          ]
+        },
+        {
+          "name": "Changed",
+          "items": [
+            "Melee is reworked: weapons swing, block and land hits more clearly.",
+            "Skills are reworked, with clearer choices in each tree.",
+            "The starting area is calmer, so you can find your feet before the fighting starts.",
+            "A new look for the HUD and every menu, with a compass and one tab bar for the map, quests, inventory, skills, the Bestiary and the Handbook.",
+            "\"Press E\" prompts sit on a backing, so you can read them on bright sand and in the dark.",
+            "Repair, upgrade and salvage show up only at a workbench, as their own tab."
+          ]
+        },
+        {
+          "name": "Fixed",
+          "items": [
+            "Townsfolk and quest givers behave and stand where they should."
+          ]
+        }
+      ]
+    }
+  ]
+}
