@@ -92,8 +92,22 @@ After that, the Website Builder site isn't used any more. You can cancel it if y
 
 ### Updating the live site
 
-Change files in `Website/`, run `tools/build.py`, then copy the changed files into the `dyrhald-site` repository, commit and push.
-GitHub puts it live within a minute or two. A Claude session can do all of this for you after each release.
+The live site is the public repository **https://github.com/defek7/dyrhald-site** (made 2026-10-19, Pages on `main`, root).
+The game repo doesn't publish anything. `Website/` here is the working copy.
+
+**It's automatic on release.** In Unity, **Dyrhald → Multiplayer → Publish Client Update** (`Tools/publish_client.py`) uploads
+the client, posts to Discord, and then runs `Tools/publish_website.py`. That rebuilds the news from `ReleaseNotes.json`, copies
+`Website/` into a clone of the site repository (`Builds/Website-repo`), commits and pushes. dyrhald.com updates a minute or two later.
+A website problem never stops the client release; the log just says "Website: NOT published".
+
+By hand, for example after changing a page:
+
+```bash
+python Tools/publish_website.py --dry-run
+```
+
+shows what would change, and without `--dry-run` it pushes. `python Tools/publish_client.py --no-website` skips the website step.
+The repository is public, so only put released notes in `ReleaseNotes.json` before publishing.
 
 ## Upload to GoDaddy (cPanel / "Web Hosting"), only if you ever switch to a hosting plan
 

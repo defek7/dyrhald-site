@@ -1,6 +1,48 @@
 {
   "releases": [
     {
+      "id": 7,
+      "title": "Release 7",
+      "date": "2026-10-19",
+      "sections": [
+        {
+          "name": "New",
+          "items": [
+            "Carving: creatures now drop their loot when you carve them, and everyone who helped gets their own share.",
+            "Hearths: you wake at the nearest hearth you've found when you're knocked out.",
+            "Ammo pouches are kept by the server, and carving creatures can give you scrap.",
+            "Poison and bleeding build up from bites and spines; cure them with a Kelp Poultice or a Patch Bandage.",
+            "Crafting: station recipe lists, a search box, categories, and an ingredient picker that shows the quality you'll get.",
+            "The Drowned Light: a sunken lighthouse with quest finds inside.",
+            "Dropped items and anything that doesn't fit in your bags land as pouches in the world.",
+            "Den upgrades take what they need straight from your storage chest.",
+            "Settings: pick your screen resolution (with Keep or Revert) and customise your crosshair.",
+            "A What's new screen (this one), new music, and kelp veins to gather."
+          ]
+        },
+        {
+          "name": "Changed",
+          "items": [
+            "Named rare creatures are much tougher (three times the health), and at most two are out at a time.",
+            "Chat is easier to read; only lines starting with / are emotes.",
+            "Clearer XP and loot text, and backings behind on-screen prompts.",
+            "Updates are now required: when a new release is out, the game asks you to restart so the launcher can update you."
+          ]
+        },
+        {
+          "name": "Fixed",
+          "items": [
+            "Invisible creatures that could still hit you.",
+            "Being pushed back or kicked for brushing against walls.",
+            "The sword plunge exploit.",
+            "The Shrine of Echoes step, copper ore's tool, and feet sinking into the sand.",
+            "NPCs in Nim and Meridian walking through things.",
+            "Chat sending only to players who are connected."
+          ]
+        }
+      ]
+    },
+    {
       "id": 6,
       "title": "Release 6",
       "date": "2026-10-18",
