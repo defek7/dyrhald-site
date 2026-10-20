@@ -1,6 +1,56 @@
 {
   "releases": [
     {
+      "id": 9,
+      "title": "Release 9",
+      "date": "2026-10-20",
+      "sections": [
+        {
+          "name": "New",
+          "items": [
+            "Trades: ten trades to level up as you make things, each with ranks, a mastery, bonuses at every rank, and recipes that unlock as you rank up.",
+            "Trade specialties: each rank lets you pick a specialty that makes your trade better in its own way.",
+            "The Brewery and the Loom: two new stations for your Den. Saltreach and Meridian have a Brewery anyone can use, and Spinecrest has a Loom.",
+            "Drinks and feasts: brew drinks at the Brewery, cook remedy dishes in the Kitchen, and share a Tide Feast or a Master's Platter.",
+            "Hides: tan creature hides at the Tanning Rack and make scale armour from them at the workbench.",
+            "Woven bags: weave a pouch, a satchel or a pack at the Loom. You now have three bag slots in your inventory.",
+            "Skill ranks: skills go up to rank 3, using rank materials, with pips showing each skill's rank.",
+            "Respecs and loadouts: change your skills at a shrine, and keep up to three loadouts to switch between.",
+            "Codices: two codex slots (opened at level 15 and in the Midnight depths) and four role codices: Tidemender, Bulwark, Fanatic and Warden. Shellbreaker now counts as a Bruiser.",
+            "Threat: creatures now pick who to attack by threat, so tanks can hold their attention and healers draw it.",
+            "Finishing The Drop now rewards you with a codex.",
+            "PvP: flag yourself for PvP at a shrine. Only two flagged players can fight. Safe zones stay safe, and dying in the Shallows costs nothing. Anywhere else, the killer gets first pick of your dropped bag.",
+            "A knock-out screen: when you're knocked out you choose where to wake, at any hearth you've found or in your Den, instead of being moved straight away."
+          ]
+        },
+        {
+          "name": "Changed",
+          "items": [
+            "Quality is reset once: everything in your bags and Den storage becomes plain quality, and matching items are merged into full stacks to free up space. Gear you're wearing isn't touched, and nothing is lost.",
+            "Tidewater Tonic is now made at the Brewery.",
+            "Trade XP has been rebalanced so ranks come at a steady pace.",
+            "PvP is clearer: a HUD chip shows when you're flagged, and you get warnings before a fight can start.",
+            "Swimming goes where you look: hold swim, move forward and look up or down to rise or sink.",
+            "The map zooms in and out on the spot under your mouse."
+          ]
+        },
+        {
+          "name": "Fixed",
+          "items": [
+            "Creatures no longer freeze at 1 health with no body after the last update.",
+            "Bell Ledge: the training lurker is visible again, and the introduction now puts the knife in your hand for you.",
+            "The ledge bench and the cooking fires in town are back.",
+            "The shrine panel now opens properly when you're playing online.",
+            "Talking to someone new stops the last person's voice, so conversations no longer talk over each other.",
+            "A scatter net that hits a townsperson no longer swells into a giant net.",
+            "If you somehow have no Reef Cutter, you're given one, so you can always cut the coral to make tools.",
+            "\"Open the bell's locker\" no longer sticks on screen if you leave the Bell Ledge mid-lesson; you get the starter kit instead.",
+            "The training lurker and crab at Bell Ledge look like the real creatures."
+          ]
+        }
+      ]
+    },
+    {
       "id": 8,
       "title": "Release 8",
       "date": "2026-10-19",
