@@ -1,6 +1,46 @@
 {
   "releases": [
     {
+      "id": 11,
+      "title": "Release 11",
+      "date": "2026-10-21",
+      "sections": [
+        {
+          "name": "New",
+          "items": [
+            "Guilds: start a guild or join one by invite. Guilds have ranks (recruit, member, officer, leader): officers can invite, promote and remove members, and a leader can hand the guild over or disband it. A leader who's away for a long time hands over to the next in line.",
+            "The guild den: a hall beside the Dens, shared by your guild's members and seen only by them. It has a guild bank (a chest for members and an officers' vault behind its own gate) with a log of what went in and out, and guild stations (workbench, forge, tanning rack and kelp press) that officers build and upgrade.",
+            "Parties: invite friends into a party to see their health and a marker for each member, with their distance.",
+            "Party loot rolls: when your party kills something, each drop pops up for everyone to Greed or Pass (G and P keys work too), and the server rolls for whoever wants it. The results show in party chat.",
+            "Party and Guild chat tabs.",
+            "Photo mode: hide the HUD and move the camera freely to take screenshots.",
+            "Meridian is rebuilt: a gatehouse against the west canyon wall with the way in under a lantern arch, new landmarks, the Undercroft and the Terraces, and buildings you can go inside."
+          ]
+        },
+        {
+          "name": "Changed",
+          "items": [
+            "Crabs reach out and pinch with their claws, with a wind-up you can see coming.",
+            "The XP bar now sits in your status panel, shows how far along you are, and gives the exact numbers when you hover over it.",
+            "Your legs stop running the moment you jump or drop off a ledge.",
+            "Den stations have one clear label (locked, ready, missing materials or maxed), and a green arrow shows over a station you can upgrade right now.",
+            "Combat damage is worked out on the server, so hits count the same for everyone.",
+            "Iron veins no longer block the road into Meridian."
+          ]
+        },
+        {
+          "name": "Fixed",
+          "items": [
+            "Bodies can be carved again after a trip to your Den, lurkers no longer shrink, and a creature's level and quality match what it drops (hotfix 10.1, now part of the full release).",
+            "A creature that comes back and is killed again gets a fresh body to carve.",
+            "Creatures or objects that no longer exist on the server don't linger in your game any more.",
+            "Fair crab hits are no longer flagged as suspicious when you turn.",
+            "Future hotfixes can require an update on their own, so everyone stays on the same version."
+          ]
+        }
+      ]
+    },
+    {
       "id": 10,
       "title": "Release 10",
       "date": "2026-10-20",
