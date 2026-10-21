@@ -1,6 +1,57 @@
 {
   "releases": [
     {
+      "id": 10,
+      "title": "Release 10",
+      "date": "2026-10-20",
+      "sections": [
+        {
+          "name": "New",
+          "items": [
+            "Weapon bonuses by weapon type: every weapon rolls from a shared pool of bonuses plus its own family's (blades, guns and so on), and better rarities get more of them. A weapon's bonuses work while it's in your hand.",
+            "Skills look and sound the part: Sonic Shriek, slams and the other skills now show their reach and who they hit, with their own sounds.",
+            "Creatures wind up before they attack (jaws open, body coiled, a claw raised), so you can see a bite coming and dodge or block it.",
+            "Den stations change their look as you upgrade them, at levels 1, 3, 5, 7 and 10.",
+            "A red edge around the screen when you're hurt, instead of the whole screen flashing. You can turn it down or off in Settings > Gameplay, with an option to reduce flashing.",
+            "Main story guidance: the next main-story step is always shown, with a marker on the compass, minimap and world map, and a banner telling you where the story goes next."
+          ]
+        },
+        {
+          "name": "Changed",
+          "items": [
+            "Winded is now Exhausted: run out of O2 in a fight and you slow to a walk until you get your breath back.",
+            "Knock-outs: the screen goes black and creatures stop going for you while you choose where to wake. Waking clears your buffs and status effects, and the choice screen is clearer.",
+            "New characters start with the Harpoon Gun and a Salvager's Knife, both ready in your weapon slots.",
+            "Melee swings aim where you're looking, so you can hit small creatures on the floor and ones swimming above you.",
+            "Cutting kelp: holding E now chops at it with your Reef Cutter, a swing at a time.",
+            "Pickup messages for the same item merge into one, and big popups wait until you're out of a fight.",
+            "Chests, crates and lockers are all one size now, and the sealed ones look sealed.",
+            "Going in and out of your Den fades to black instead of jumping you across the world.",
+            "Carving has no percentage any more: hold E and the pieces come out one cut at a time, with any rare find on the last cut (\"Something glints inside... a Pearl!\", with the item's icon).",
+            "A tidier introduction: you can't swim off the ledge until you finish or skip the lessons, skipping gives you everything the lessons would, the narration keeps up as you finish steps, and the screen points out what to click when it asks you to craft or buy.",
+            "The glowlamp step comes later in the introduction and fits your people: a Glowlamp for humans, a Glowsight Infusion for fishmen.",
+            "\"Not now\" stops what the person you were talking to was saying.",
+            "The Den has been redesigned with more room, and build previews no longer show rings or decorations inside them.",
+            "Trade ranks explain themselves: hover a requirement like \"Cooking Adept\" to see that trade's ranks and how to earn them. The craft panel hides quality when it doesn't matter."
+          ]
+        },
+        {
+          "name": "Fixed",
+          "items": [
+            "Cliffs no longer turn to sand when you're more than a few metres away.",
+            "Divers no longer get stuck swimming in a sitting pose after a leap.",
+            "Creatures left frozen after a Den trip, taking no damage and healing back, are gone.",
+            "Fewer false movement and reach flags from the server: when you log in, during lunges, and when several traders share a name.",
+            "A fishman's aiming hand is fixed.",
+            "The species screen shows the right starting kit.",
+            "Decorative crates no longer look like you can loot them.",
+            "Building a Den station never asks for materials that only that station can make (the Forge needed Bronze Ingots).",
+            "Quest marks (! and ?) stay above the NPC's head instead of floating in the wrong place."
+          ]
+        }
+      ]
+    },
+    {
       "id": 9,
       "title": "Release 9",
       "date": "2026-10-20",
