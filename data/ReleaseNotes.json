@@ -2,6 +2,30 @@
   "releases": [
     {
       "id": 11,
+      "patch": 2,
+      "title": "Release 11.2",
+      "date": "2026-10-23",
+      "sections": [
+        {
+          "name": "Changed",
+          "items": [
+            "A creature's name colour now shows how it behaves toward you: red means it hunts you, amber means it fights back, green means it flees. Its glow and badge show its tier, and named rares are gold."
+          ]
+        },
+        {
+          "name": "Fixed",
+          "items": [
+            "A Razorfin's dash no longer bounces you up and down: it skims past your side instead.",
+            "Creatures no longer shoot straight up steep hills.",
+            "A named rare you carve alone no longer comes up empty.",
+            "The bright cyan glow at the foot of the Wreck of the Mariah is gone.",
+            "Lights settle down properly as soon as the world loads."
+          ]
+        }
+      ]
+    },
+    {
+      "id": 11,
       "patch": 1,
       "title": "Release 11.1",
       "date": "2026-10-23",
