@@ -2,6 +2,51 @@
   "releases": [
     {
       "id": 11,
+      "patch": 1,
+      "title": "Release 11.1",
+      "date": "2026-10-23",
+      "sections": [
+        {
+          "name": "New",
+          "items": [
+            "Four new creatures in the Shallows: the Reef Turtle, Old Barnacleback, the Razorfin and the Clubclaw, plus green Scute armour made from what they drop.",
+            "The Shallows Naturalist, and the Naturalist's Reliquary to earn.",
+            "The Meridian Exchange: Meridian's new central market.",
+            "Meridian is rebuilt with new coral towers, halls, domes, a stern tavern, a whalebone lodge and more.",
+            "Founding a guild: visit Registrar Quill at her desk in Meridian's square (or the Guild tab). Founding costs 500 tidemarks.",
+            "Guild den stations show a hologram where one can be built.",
+            "A new longest-kill stat, and Long Shot now counts against any creature.",
+            "A new jump animation: a push-off, a floaty tuck, a drift and a soft landing."
+          ]
+        },
+        {
+          "name": "Changed",
+          "items": [
+            "Party loot is now shared carving: each cut goes to whoever carves it, one body's worth between you, and chests are first come, first served. Greed and Pass rolls are gone.",
+            "Every carve now gives the creature's main material.",
+            "Named rares now hunt you on sight.",
+            "Bandages, poultices and tonics take a moment to put on.",
+            "Guild stations cost a flat ten times their normal price.",
+            "Sonic Shriek now shows as waveform rings.",
+            "Fewer lurkers in the Shallows.",
+            "The hurt effect is softer: a patchy red haze instead of sharp veins.",
+            "The Drowned Light is bigger and half-sunk in rubble."
+          ]
+        },
+        {
+          "name": "Fixed",
+          "items": [
+            "Take all now waits for the server, so nothing goes missing from your bags or Den.",
+            "The murk and kelp haze no longer outlines far-off rocks and buildings.",
+            "Small lights no longer flare against walls, and glowing creatures' lights don't blow out.",
+            "World map labels no longer overlap.",
+            "Several buildings in Meridian no longer float or sit in the rock."
+          ]
+        }
+      ]
+    },
+    {
+      "id": 11,
       "title": "Release 11",
       "date": "2026-10-21",
       "sections": [
