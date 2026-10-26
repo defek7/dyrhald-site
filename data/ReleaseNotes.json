@@ -2,6 +2,29 @@
   "releases": [
     {
       "id": 11,
+      "patch": 3,
+      "title": "Release 11.3",
+      "date": "2026-10-26",
+      "sections": [
+        {
+          "name": "Changed",
+          "items": [
+            "Item icons are easier to read: each item fills its icon, with brighter light and a pale rim.",
+            "Meridian has two new houses: a hull house on the west deck and a whale-rib house on the east deck."
+          ]
+        },
+        {
+          "name": "Fixed",
+          "items": [
+            "The bright cyan discs and streaks in the Hull Graveyard, the Rimlands and by the Wreck of the Mariah are gone.",
+            "The thin black line along the top of sand ridges is gone.",
+            "Shots, beams, lines and other effects no longer hang in the water for good."
+          ]
+        }
+      ]
+    },
+    {
+      "id": 11,
       "patch": 2,
       "title": "Release 11.2",
       "date": "2026-10-23",
