@@ -2,6 +2,42 @@
   "releases": [
     {
       "id": 11,
+      "patch": 5,
+      "title": "Release 11.5",
+      "date": "2026-10-27",
+      "sections": [
+        {
+          "name": "New",
+          "items": [
+            "The map and minimap are redone: shaded by depth, with height lines, a soft shoreline and names laid out so they don't overlap.",
+            "Crafting at a station shows everything about the item under Craft (what it does, its numbers, how it compares with your weapons), with no hovering.",
+            "Contracts can be handed in to whoever posted them, as well as at the board.",
+            "The edge of the world has cliffs and a mountain ridge along it."
+          ]
+        },
+        {
+          "name": "Changed",
+          "items": [
+            "Station craft queues grow with the station's level: 3 at level 1, up to 12.",
+            "Rarity colour now means a rolled copy: plain materials and gear show as Common (a Lurker Fang is white, a Rare Lurker Fang blue).",
+            "The picked item's card in your bags is a short strip at the bottom, so the bags get more room.",
+            "Station upgrade previews read more clearly.",
+            "Walking on the seafloor is 5% quicker.",
+            "You're turned back a little sooner at the edge of the world.",
+            "Dens are sheltered from the weather and the sea's events."
+          ]
+        },
+        {
+          "name": "Fixed",
+          "items": [
+            "Selling at a trader near a named rare no longer takes several clicks.",
+            "Carving right after a fight no longer drops cuts and then hands out everything at once, and the glint waits until the find is in your bags."
+          ]
+        }
+      ]
+    },
+    {
+      "id": 11,
       "patch": 4,
       "title": "Release 11.4",
       "date": "2026-10-27",
