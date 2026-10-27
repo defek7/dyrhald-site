@@ -2,6 +2,43 @@
   "releases": [
     {
       "id": 11,
+      "patch": 4,
+      "title": "Release 11.4",
+      "date": "2026-10-27",
+      "sections": [
+        {
+          "name": "New",
+          "items": [
+            "Sort buttons for your bags, your Den chest and guild chests.",
+            "Station crafting has categories down the left, with how many of each it can make.",
+            "Weapon tooltips compare a weapon with both of yours.",
+            "Your bags are split into sections, and slots are shaded by rarity.",
+            "Icons for 78 items that had none.",
+            "Riptide and Pressure Wave have big new looks."
+          ]
+        },
+        {
+          "name": "Changed",
+          "items": [
+            "The melee Bronze Trident is now the Bronze Fishing Spear, and the Wardsteel Trident is the Wardsteel Pike.",
+            "Thin item icons (harpoons, knives, spears) no longer have a white rim, and the rifle icon is the right way up.",
+            "Critical-hit glints always show on top of the node.",
+            "NPCs stand with their palms resting at their sides."
+          ]
+        },
+        {
+          "name": "Fixed",
+          "items": [
+            "Loot chests, crates and barrels now fade into the murk like everything around them.",
+            "The Crafting tab no longer lags.",
+            "The \"Choose your first skill\" objective clears once you've picked a skill.",
+            "Right-click Use works on the Tide Charm again."
+          ]
+        }
+      ]
+    },
+    {
+      "id": 11,
       "patch": 3,
       "title": "Release 11.3",
       "date": "2026-10-26",
