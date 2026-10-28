@@ -16,7 +16,7 @@ from datetime import date
 SITE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 GAME_NOTES = os.path.join(os.path.dirname(SITE), "Assets", "Resources", "ReleaseNotes.json")
 NOTES = os.path.join(SITE, "data", "ReleaseNotes.json")
-PAGES = ["index.html", "world.html", "media.html", "news.html", "join.html", "faq.html", "404.html"]
+PAGES = ["index.html", "world.html", "media.html", "news.html", "join.html", "faq.html", "privacy.html", "404.html"]
 
 
 def read(path):
@@ -46,7 +46,8 @@ def nice_date(s):
 
 def release_html(r, level=2):
     h, out = "h%d" % level, []
-    out.append('<article class="release" id="release-%s">' % html.escape(str(r.get("id", ""))))
+    anchor = re.sub(r"[^a-z0-9]+", "-", str(r.get("title") or "release %s" % r.get("id", "")).lower()).strip("-")
+    out.append('<article class="release" id="%s">' % anchor)  # e.g. release-11-5 (point releases share an id)
     out.append('  <header><%s>%s</%s><time datetime="%s">%s</time></header>'
                % (h, html.escape(r.get("title", "")), h, html.escape(r.get("date", "")), nice_date(r.get("date", ""))))
     for sec in r.get("sections", []):
