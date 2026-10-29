@@ -2,6 +2,28 @@
   "releases": [
     {
       "id": 11,
+      "patch": 7,
+      "title": "Release 11.7",
+      "date": "2026-10-29",
+      "sections": [
+        {
+          "name": "Changed",
+          "items": [
+            "Crabs and other crawlers walk on their legs, feet planted on the ground."
+          ]
+        },
+        {
+          "name": "Fixed",
+          "items": [
+            "Fresh elite creatures no longer show half health when they appear.",
+            "The E prompt no longer shows for kelp behind rock.",
+            "Other players hold their guns properly, and hair no longer arches up off the head."
+          ]
+        }
+      ]
+    },
+    {
+      "id": 11,
       "patch": 6,
       "title": "Release 11.6",
       "date": "2026-10-29",
