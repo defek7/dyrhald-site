@@ -1,6 +1,50 @@
 {
   "releases": [
     {
+      "id": 12,
+      "patch": 0,
+      "title": "Release 12: The Twilight Shelf",
+      "date": "2026-10-30",
+      "sections": [
+        {
+          "name": "New",
+          "items": [
+            "The Twilight Shelf: a deep new region below Meridian, reached through Meridian's south gate and its side passes.",
+            "Beat the Shellback to adapt to the twilight depths and go deeper.",
+            "Caves in the Rift's walls to explore: the Brinewell, the Glimmer Warren, the Gullet and the Vent Caves.",
+            "Pressure Station Nine, Tidewatch and the fishman camps, with lit buoys and floodlights to find your way.",
+            "Deep creatures, the Vault Warden, black-smoker vents and the blight.",
+            "New things to gather: Gloomkelp, Pressure Clams, Ember Coral, and silver and gold veins.",
+            "Tools for the dark: the sonar ping (F), flares and lamp upgrades.",
+            "Haul: carrying a lot slows you down; bag floats, charms, brews and meals lift it."
+          ]
+        },
+        {
+          "name": "Changed",
+          "items": [
+            "Your ammo pouch refills itself from your bags when you reload.",
+            "Tooltips and recipes show the level you need before you spend.",
+            "Gill lattices are retired: anyone holding one gets back what it was made from.",
+            "Swimming with a gun: both arms swim, and the gun comes up when you aim.",
+            "Footsteps sound like what you walk on.",
+            "Bigger item icons and a tighter bag grid.",
+            "Creatures turn smoothly instead of pivoting, and the Reef Turtle swims with whole-flipper strokes.",
+            "A faint dark-blue light from above on the open shelf, and the shelf's plants show their own colours without a lamp."
+          ]
+        },
+        {
+          "name": "Fixed",
+          "items": [
+            "Harpoons stick in the creature they hit, not in the water next to it.",
+            "Bell Ledge training: no more knock-outs, and you always wake on the ledge.",
+            "Tidewarden Oru and Hesk the Mender are visible again.",
+            "Menus no longer hitch the first time you open them.",
+            "The Brine Leech's tail sways with its swim instead of smearing when it turns."
+          ]
+        }
+      ]
+    },
+    {
       "id": 11,
       "patch": 7,
       "title": "Release 11.7",
