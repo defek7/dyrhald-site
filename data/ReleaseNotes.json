@@ -2,6 +2,62 @@
   "releases": [
     {
       "id": 12,
+      "patch": 1,
+      "title": "Release 12.1",
+      "date": "2026-10-31",
+      "sections": [
+        {
+          "name": "New",
+          "items": [
+            "The Shellback is an arena fight: the first hit locks it to your party, it grows tougher with a bigger group, outsiders are kept at the bowl's edge, and the whole party is credited.",
+            "The Shellback comes back 5 minutes after it dies.",
+            "Quick deposit in the Den and guild chests, and Favorite items (right-click) that Quick deposit leaves in your bags.",
+            "Jelly lanterns light up the water around them.",
+            "A new layout for Spinecrest, and walkways at Meridian that meet and can be walked everywhere.",
+            "Upgraded guns show their tier: a steel sleeve, a brass tank or a coil shroud, on the gun and its icon.",
+            "Meridian gets switchback stairs from the top walkways up to the rim, and rim bridges that land on the rim, lit at both ends."
+          ]
+        },
+        {
+          "name": "Changed",
+          "items": [
+            "The Shallows and the Twilight Shelf now run on their own servers.",
+            "Quality rolls on one curve everywhere: quality finds are rarer and mostly low, high quality is a real find. The travelling merchant still sells quality goods.",
+            "The shelf's gorge caves have their own creatures at shelf levels. Wear armour down there.",
+            "Creature bites past level 20 grow more gently.",
+            "Cliffs are rock, not sand. Meridian's vault pillars and gate are carved stone, no longer glowing.",
+            "Ore and coral no longer grow on the doorsteps of towns, camps and Dens.",
+            "The minimap and map arrow turn as you look around, not only when you move.",
+            "Standing still, your feet stay planted.",
+            "A Shellback that has been carved bare sinks into the sand, and comes back whole when it respawns.",
+            "Hits on the Shellback show the damage the server really dealt, and staggers really double your damage online.",
+            "A party member knocked out near the Shellback still gets credit for the kill.",
+            "Spinecrest's seal arch, ward walls and ruin pillars are carved stone, glowing only in their inlays.",
+            "Light shafts fade out at the top instead of ending in a hard edge."
+          ]
+        },
+        {
+          "name": "Fixed",
+          "items": [
+            "Fish heads no longer stretch or vanish when they turn, and the Brine Leech's tail sways properly.",
+            "Kill credit for the Shellback, named rares and the Pale Matriarch follows you across a knock-out, a relog or a Den door.",
+            "Swimming out of your Den's grotto takes you out by your door, never into empty water.",
+            "Spinecrest's buildings, its kitchen and its people stand on the ground again.",
+            "Terrain seams no longer show walls, ridges or cracks, by Station Nine, the lip and Spinecrest.",
+            "People stay on their floors indoors (Mender Sabe at Meridian), and Meridian's planter is off the Tideborn Hall's steps.",
+            "The Ancient stones' quest glow sits on the stones in the Shellback's bowl.",
+            "The Shellback's shell no longer shows jagged dark facets.",
+            "The Tide Charm used on the shelf takes you to your Den, not under the sea floor at Kelpwatch.",
+            "Eels, sharks and lurkers no longer stretch or shear as they turn and climb, and fish heads stay whole at a distance.",
+            "Rocks, coral and sea grass sit on the ground at the Drop-off and the Shellback's bowl, and ore veins are no longer half buried.",
+            "Buildings on slopes stand on stone plinths with no gap under them; Meridian's deck homes and town props no longer clip.",
+            "Meridian: the walkway gap at Speaker Vell, the deck seams and the braces through the woodwork are fixed; the Tideborn Hall's lamp post stands on its basin."
+          ]
+        }
+      ]
+    },
+    {
+      "id": 12,
       "patch": 0,
       "title": "Release 12: The Twilight Shelf",
       "date": "2026-10-30",
