@@ -2,6 +2,60 @@
   "releases": [
     {
       "id": 12,
+      "patch": 2,
+      "title": "Release 12.2",
+      "date": "2026-11-04",
+      "sections": [
+        {
+          "name": "New",
+          "items": [
+            "Meridian is rebuilt as a canyon city: dressed street walls and market stalls, shopkeepers behind their counters, a winch lift at Pem's, lit walkways and a rim you can walk.",
+            "Seven new Twilight armor sets: three role sets and four rare two-piece sets.",
+            "New cooking recipes.",
+            "Creatures fight with new moves and show a tell before they strike: the Shellback burrows and spins, ink clouds, spit, packs and schools, and thornback rays beat their wings.",
+            "Death markers show where you fell: a lamp for humans, a helm for fishman.",
+            "The diver's journal is a notebook with sketches, replacing the J journal and the Handbook tab.",
+            "Weapons, armor, rings and trinkets get new item cards: clear numbers, a side-by-side comparison with what you wear, and your set bonuses at a glance. The Knowledge tree, crafting and station screens use compact cards.",
+            "Sounds on every button and menu, new \"learned\" and \"crafted\" sounds, and a Menu sounds volume slider.",
+            "Footprints in sand and silt.",
+            "Glowing colonies of tube worms and anemones sit at the Twilight Shelf's glow spots, and glow lies on the ground instead of floating.",
+            "New layouts for Kelpwatch, Wrack's End and the Ledge Rats camp; a walk-in Brine Cup tavern; fishman watchtowers, salvage stalls and boat homes.",
+            "Log in by region: pick Central and Play takes you to the zone where you last played, with the start screen up until you are placed (\"Connected to the Shallows · Central\")."
+          ]
+        },
+        {
+          "name": "Changed",
+          "items": [
+            "Zone hops show a loading screen, never the world in between, and a failed hop retries behind it.",
+            "Adapted divers swim off the Shelf's lip; divers who have not adapted are held at the lip.",
+            "The Twilight Shelf has a real twilight look, brighter and navy; the Rift is dark but never black and shelf caves are never pitch black.",
+            "The glowlamp is stronger (38 m) and its beam starts at your helm.",
+            "Pneumatic gun fittings open at Forge 1 (level 15) and Rail fittings at Forge 3 (level 28). Players who bought the old nodes get their points back.",
+            "Harpoon aim allows for the water's drop, with a hit marker and a hit sound: shots at creatures register far more often.",
+            "Side quests need the evolution and level 15.",
+            "Frame rate: far-away townsfolk and idle objects sleep, far lights switch off, far Meridian models are hidden, and menus draw faster.",
+            "Quest, NPC and game text is in American spelling.",
+            "The Rift is named once on the map, and Meridian no longer shows a square on it.",
+            "The Hunters' Run coral arch is gone."
+          ]
+        },
+        {
+          "name": "Fixed",
+          "items": [
+            "The garbled start-up sound and the crackle on the start screen, loads and server moves are gone; menu and game-made sounds no longer go silent after the sound system resets.",
+            "No more trenches, walls or cracks at terrain tile edges; 21 deep empty pits on the Shelf are filled and smoothed; rocks and 25 floating boulders rest on the ground; cave floors are set down.",
+            "The lip barrier pushes back again, and the server stops divers who have not adapted from crossing.",
+            "NPCs idle with their arms down and their feet on the ground.",
+            "An elite lurker no longer gets stuck in walls; the Chimaera's tail sways as it swims; the Shellback can't be swum through.",
+            "Small rocks no longer look like pale slabs; the Shelf cliffs no longer show stretched glow streaks; sun shafts no longer flicker.",
+            "Meridian: floor gaps at the Black Market door and by Warden Saal are fixed, the Den sits on the street, the border is repainted and edges blend into the street.",
+            "Buoys sit on rock piles with chains, camp props are solid, and Tidewatch and Station Nine stand on the Shelf only."
+          ]
+        }
+      ]
+    },
+    {
+      "id": 12,
       "patch": 1,
       "title": "Release 12.1",
       "date": "2026-10-31",
@@ -22,8 +76,8 @@
           "name": "Changed",
           "items": [
             "The Shallows and the Twilight Shelf now run on their own servers.",
-            "Quality rolls on one curve everywhere: quality finds are rarer and mostly low, high quality is a real find. The travelling merchant still sells quality goods.",
-            "The shelf's gorge caves have their own creatures at shelf levels. Wear armour down there.",
+            "Quality rolls on one curve everywhere: quality finds are rarer and mostly low, high quality is a real find. The traveling merchant still sells quality goods.",
+            "The shelf's gorge caves have their own creatures at shelf levels. Wear armor down there.",
             "Creature bites past level 20 grow more gently.",
             "Cliffs are rock, not sand. Meridian's vault pillars and gate are carved stone, no longer glowing.",
             "Ore and coral no longer grow on the doorsteps of towns, camps and Dens.",
@@ -85,7 +139,7 @@
             "Footsteps sound like what you walk on.",
             "Bigger item icons and a tighter bag grid.",
             "Creatures turn smoothly instead of pivoting, and the Reef Turtle swims with whole-flipper strokes.",
-            "A faint dark-blue light from above on the open shelf, and the shelf's plants show their own colours without a lamp."
+            "A faint dark-blue light from above on the open shelf, and the shelf's plants show their own colors without a lamp."
           ]
         },
         {
@@ -135,9 +189,9 @@
             "A Neck slot. The Tide Charm is now a necklace: wear it and press H to go home to your Den.",
             "Downed and revive: when you go down, a friend can bring you back before you're knocked out.",
             "Guild invites by name to anyone in the region, online or not. An invite waits 24 hours.",
-            "Choose your wetsuit colour when you make a character.",
+            "Choose your wetsuit color when you make a character.",
             "A new starting harpoon gun, the ornate harpoon rifle, and new human bodies, male and female.",
-            "Armour is shaped to your own body, so it fits every build and pose, and other players now see what you wear.",
+            "Armor is shaped to your own body, so it fits every build and pose, and other players now see what you wear.",
             "In PvP, an enemy's health shows when you hit them, and dash lunges and Rending Lunge now hurt players.",
             "Meridian's people speak their new lines aloud.",
             "A redesigned weapon mastery page: a card for each weapon family with your rank and progress.",
@@ -155,8 +209,8 @@
             "PvP shots count when they pass close to a player's body.",
             "Kelp is cut from where you are, at your shoulder.",
             "Swimming looks better: your feet stay pointed and the kick is calmer.",
-            "New models for the wardsteel armour, the bronze, steel and wardsteel dirks, the ingots, the floats, the brews, the meals and kelpcloth.",
-            "Hair is now built on your head, like armour."
+            "New models for the wardsteel armor, the bronze, steel and wardsteel dirks, the ingots, the floats, the brews, the meals and kelpcloth.",
+            "Hair is now built on your head, like armor."
           ]
         },
         {
@@ -194,7 +248,7 @@
           "name": "Changed",
           "items": [
             "Station craft queues grow with the station's level: 3 at level 1, up to 12.",
-            "Rarity colour now means a rolled copy: plain materials and gear show as Common (a Lurker Fang is white, a Rare Lurker Fang blue).",
+            "Rarity color now means a rolled copy: plain materials and gear show as Common (a Lurker Fang is white, a Rare Lurker Fang blue).",
             "The picked item's card in your bags is a short strip at the bottom, so the bags get more room.",
             "Station upgrade previews read more clearly.",
             "Walking on the seafloor is 5% quicker.",
@@ -280,7 +334,7 @@
         {
           "name": "Changed",
           "items": [
-            "A creature's name colour now shows how it behaves toward you: red means it hunts you, amber means it fights back, green means it flees. Its glow and badge show its tier, and named rares are gold."
+            "A creature's name color now shows how it behaves toward you: red means it hunts you, amber means it fights back, green means it flees. Its glow and badge show its tier, and named rares are gold."
           ]
         },
         {
@@ -304,7 +358,7 @@
         {
           "name": "New",
           "items": [
-            "Four new creatures in the Shallows: the Reef Turtle, Old Barnacleback, the Razorfin and the Clubclaw, plus green Scute armour made from what they drop.",
+            "Four new creatures in the Shallows: the Reef Turtle, Old Barnacleback, the Razorfin and the Clubclaw, plus green Scute armor made from what they drop.",
             "The Shallows Naturalist, and the Naturalist's Reliquary to earn.",
             "The Meridian Exchange: Meridian's new central market.",
             "Meridian is rebuilt with new coral towers, halls, domes, a stern tavern, a whalebone lodge and more.",
@@ -418,7 +472,7 @@
         {
           "name": "Fixed",
           "items": [
-            "Cliffs no longer turn to sand when you're more than a few metres away.",
+            "Cliffs no longer turn to sand when you're more than a few meters away.",
             "Divers no longer get stuck swimming in a sitting pose after a leap.",
             "Creatures left frozen after a Den trip, taking no damage and healing back, are gone.",
             "Fewer false movement and reach flags from the server: when you log in, during lunges, and when several traders share a name.",
@@ -443,7 +497,7 @@
             "Trade specialties: each rank lets you pick a specialty that makes your trade better in its own way.",
             "The Brewery and the Loom: two new stations for your Den. Saltreach and Meridian have a Brewery anyone can use, and Spinecrest has a Loom.",
             "Drinks and feasts: brew drinks at the Brewery, cook remedy dishes in the Kitchen, and share a Tide Feast or a Master's Platter.",
-            "Hides: tan creature hides at the Tanning Rack and make scale armour from them at the workbench.",
+            "Hides: tan creature hides at the Tanning Rack and make scale armor from them at the workbench.",
             "Woven bags: weave a pouch, a satchel or a pack at the Loom. You now have three bag slots in your inventory.",
             "Skill ranks: skills go up to rank 3, using rank materials, with pips showing each skill's rank.",
             "Respecs and loadouts: change your skills at a shrine, and keep up to three loadouts to switch between.",
