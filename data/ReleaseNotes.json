@@ -2,6 +2,44 @@
   "releases": [
     {
       "id": 12,
+      "patch": 3,
+      "title": "Release 12.3",
+      "date": "2026-11-07",
+      "sections": [
+        {
+          "name": "Changed",
+          "items": [
+            "The sea has a new, more vivid look: sun shafts that tilt with the sun and stop at rock, light that fades with depth (Meridian's light reaches 130 m and is dark by 180 m), a brighter Shallows, better-lit characters and calmer caustics.",
+            "You choose your first skill at the end of the tutorial; there are no automatic starter skills.",
+            "Slopes steeper than 50 degrees can't be stood on: you slide off.",
+            "The Raid on Saltreach event is removed.",
+            "New menu sounds.",
+            "New visual UI update across all screens: inventory, crafting, journal, skills, hover cards and start screens.",
+            "Air upgrades are renamed as air kits (Air Tanks Mk II, Air Rebreather Mk III, Air Gill Collar Mk IV, and so on).",
+            "Music plays while the game loads and on the start screens.",
+            "The seafloor sand is smoother, with ripples only on open flat sand; brine lakes have soft shores; the Twilight Shelf's sheer walls are reshaped and repainted, and rocks, ruins and camp props there rest on the ground.",
+            "Meridian's lamps are dimmer, the north end has fewer rocks, and its canyon rock is redone.",
+            "Camp tables and workbenches, and the ones in your Den, are at waist height. The Den's time of day (Cycle, Morning, Noon, Evening, Night) is set at your Bedroll's window and only changes your own Den.",
+            "Tech Oyelaran's Pressure Seals offer names the Seeps' Brine Crawlers."
+          ]
+        },
+        {
+          "name": "Fixed",
+          "items": [
+            "Servers send updates 20 times a second again (they were running at about 14), so creatures and divers move smoother.",
+            "Loading no longer freezes for seconds or shows \"Not responding\", and loading music is no longer cut off.",
+            "Knees no longer bend the wrong way when you jump.",
+            "Floating rocks, coral and buildings across the shelf and the Shallows are set down on the ground.",
+            "Fewer camera clips through large decorations.",
+            "Townsfolk no longer stand in a T-pose.",
+            "No more bridges or ladders hanging in open water in Meridian.",
+            "Stronger server checks against forged actions, chat spam and action floods."
+          ]
+        }
+      ]
+    },
+    {
+      "id": 12,
       "patch": 2,
       "title": "Release 12.2",
       "date": "2026-11-04",
