@@ -1,6 +1,90 @@
 {
   "releases": [
     {
+      "id": 13,
+      "title": "Release 13.1",
+      "date": "2026-11-13",
+      "sections": [
+        {
+          "name": "Map",
+          "items": [
+            "Meridian 13: the canyon city, with cobbled avenues, walls, a free town workbench and a town brewery beside the town kitchen.",
+            "Lastout, a survivors' camp on the Rift's west bench above the Dyrhald Gorge, with two new characters to meet.",
+            "Two new Ancient seal arches on the Twilight Shelf: Pressure Station Nine and Edgewatch.",
+            "Fewer named areas around Kelpwatch: quests now point you at the Blight Edge, the kelp north of camp and the wrecks south of it."
+          ]
+        },
+        {
+          "name": "PvP",
+          "items": [
+            "Dyrhald Below: queue as a party of 1 to 3 from any seal gate or crater drop hole, from level 18. Matches of up to 30 divers last 30 minutes, with blight rising near the end."
+          ]
+        },
+        {
+          "name": "World",
+          "items": [
+            "Seal gates: the Den's portals are now lilac Ancient seal arches. Press E at one to pick where to go: the Den, or any portal you have visited.",
+            "The Kelpwatch gate brightens the first time you come near it carrying Half a Locket.",
+            "Live testing now runs in set hours: Friday 4:00 PM to Sunday 10:00 PM Central. Outside them the start screen shows when the next session opens, and warnings come at 30, 10 and 1 minute before it closes.",
+            "Features open by level: founding a guild opens at 15 (anyone can join one at any level), weapon enhancement slots at 10, the auction house at 5, Dyrhald Below at 18; locked screens show their level."
+          ]
+        },
+        {
+          "name": "Quests",
+          "items": [
+            "Quest lines and objectives reworded to read naturally, and the voiced lines were voiced again with natural pauses.",
+            "Contract suggestions start at level 3, and a suggestion that was waiting when you turned them off no longer pops up afterward."
+          ]
+        },
+        {
+          "name": "Items",
+          "items": [
+            "Faction ranks: sell to a faction's own merchant to build standing. Deepworks sells gun fittings, Charge Cells and kit by rank, and at Exalted a new Drill-Lance (level 28 spear). The Called sell their charms and rings.",
+            "Fixed: selling at a trader sells only the item you picked; Sell 1 and Sell all no longer take the same item in other rarities or qualities too.",
+            "Fixed: quick deposit puts medicine, flares, ammo and other kit onto a pile the chest already holds, and its message shows in the storage window.",
+            "Fixed: Lamp Cells and the Quick Recharge perk now show an icon.",
+            "361 item, armor, kit, food, drink, tool and bag descriptions rewritten in plain sentences."
+          ]
+        },
+        {
+          "name": "Crafting",
+          "items": [
+            "Crafting lists show only recipes you have learned in the Knowledge tree (set pieces appear from their pattern). Patterns say Learn."
+          ]
+        },
+        {
+          "name": "UI",
+          "items": [
+            "New visual UI update across all screens: inventory, crafting, journal, skills, hover cards, start screens and buttons.",
+            "The minimap no longer hitches when it first appears, and quest search areas stay inside its circle.",
+            "Fixed: the Den door works right after you arrive in Meridian.",
+            "Character creation: each species card shows its own starting weapons, with a plain-sentence line for what it starts with and what its skill trees are good at.",
+            "What's New waits until the opening and a new diver's lessons are done."
+          ]
+        },
+        {
+          "name": "Visuals",
+          "items": [
+            "Fixed: no more white-then-black patches of light near the Twilight Shelf's lamp caches and glowing fish."
+          ]
+        },
+        {
+          "name": "Audio",
+          "items": [
+            "Spoken lines now pause at questions, exclamations and trailing dots instead of reading straight through.",
+            "Opening a quest or talk window fades out every voice still playing, so lines no longer talk over each other."
+          ]
+        },
+        {
+          "name": "Known issues",
+          "items": [
+            "A brief one-time stutter the first time new ground shadows appear; fix coming."
+          ]
+        }
+      ],
+      "patch": 1
+    },
+    {
       "id": 12,
       "patch": 3,
       "title": "Release 12.3",
