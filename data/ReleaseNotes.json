@@ -2,7 +2,7 @@
   "releases": [
     {
       "id": 13,
-      "title": "Release 13.1",
+      "title": "Release 13.2",
       "date": "2026-11-13",
       "sections": [
         {
@@ -11,7 +11,8 @@
             "Meridian 13: the canyon city, with cobbled avenues, walls, a free town workbench and a town brewery beside the town kitchen.",
             "Lastout, a survivors' camp on the Rift's west bench above the Dyrhald Gorge, with two new characters to meet.",
             "Two new Ancient seal arches on the Twilight Shelf: Pressure Station Nine and Edgewatch.",
-            "Fewer named areas around Kelpwatch: quests now point you at the Blight Edge, the kelp north of camp and the wrecks south of it."
+            "Fewer named areas around Kelpwatch: quests now point you at the Blight Edge, the kelp north of camp and the wrecks south of it.",
+            "Fixed: some Glowcoral on the Twilight Shelf were invisible and couldn't be harvested."
           ]
         },
         {
@@ -26,14 +27,22 @@
             "Seal gates: the Den's portals are now lilac Ancient seal arches. Press E at one to pick where to go: the Den, or any portal you have visited.",
             "The Kelpwatch gate brightens the first time you come near it carrying Half a Locket.",
             "Live testing now runs in set hours: Friday 4:00 PM to Sunday 10:00 PM Central. Outside them the start screen shows when the next session opens, and warnings come at 30, 10 and 1 minute before it closes.",
-            "Features open by level: founding a guild opens at 15 (anyone can join one at any level), weapon enhancement slots at 10, the auction house at 5, Dyrhald Below at 18; locked screens show their level."
+            "Features open by level: founding a guild opens at 15 (anyone can join one at any level), weapon enhancement slots at 10, the auction house at 5, Dyrhald Below at 18; locked screens show their level.",
+            "Swimming uses a little less air: about 5 seconds from full instead of 4.",
+            "Fixed: \"Something heard you!\" now shows only when a creature really comes for you, not whenever your gathering noise meter fills.",
+            "Fixed: a gathering node's weak spot now moves on every hit, including Glowcoral, Branch Coral, Ember Coral and corpses, which kept one spot.",
+            "Fixed: a creature's name and health bar could stay stuck on screen after you left, even in your Den.",
+            "Fixed: the Reef Turtle's front flippers no longer jerk back and forth.",
+            "Fixed: the guild den no longer floats in the distance when you're in your own Den."
           ]
         },
         {
           "name": "Quests",
           "items": [
             "Quest lines and objectives reworded to read naturally, and the voiced lines were voiced again with natural pauses.",
-            "Contract suggestions start at level 3, and a suggestion that was waiting when you turned them off no longer pops up afterward."
+            "Contract suggestions start at level 3, and a suggestion that was waiting when you turned them off no longer pops up afterward.",
+            "First steps are now a quest, A Bench of Your Own, in the quest log and tracker.",
+            "Fixed: a high-level character in the Den could still see the opening's first-step objective."
           ]
         },
         {
@@ -49,7 +58,8 @@
         {
           "name": "Crafting",
           "items": [
-            "Crafting lists show only recipes you have learned in the Knowledge tree (set pieces appear from their pattern). Patterns say Learn."
+            "Crafting lists show only recipes you have learned in the Knowledge tree (set pieces appear from their pattern). Patterns say Learn.",
+            "Away from a station, the bags' Crafting tab lists what you can make by hand first, then a Requires Station divider; station recipes say Needs a station."
           ]
         },
         {
@@ -59,20 +69,29 @@
             "The minimap no longer hitches when it first appears, and quest search areas stay inside its circle.",
             "Fixed: the Den door works right after you arrive in Meridian.",
             "Character creation: each species card shows its own starting weapons, with a plain-sentence line for what it starts with and what its skill trees are good at.",
-            "What's New waits until the opening and a new diver's lessons are done."
+            "What's New waits until the opening and a new diver's lessons are done.",
+            "Quests is now the first journal tab and the journal opens on it. Each side quest and contract in its list has a one-click Track button.",
+            "Workbenches: Repair & Upgrade is now a tab on the workbench window. After your first build the station window turns to Use, the Upgrade page fills the window, and your first craft lights the queue with a one-time hint.",
+            "The Den storage chest opens in the same window as your stations, with Use and Upgrade tabs and its level shown as Level N of 10. Upgrading anything now plays a sound and an effect and shows a short line saying what the new level gives.",
+            "Item hover cards no longer list Used in. Right-click an item and choose More info to see it in full with every recipe it goes into.",
+            "The Knowledge tree shows at a glance what you can learn now, what needs more points, and what is out of reach.",
+            "Fixed: the storage chest's level now reads the same everywhere."
           ]
         },
         {
           "name": "Visuals",
           "items": [
-            "Fixed: no more white-then-black patches of light near the Twilight Shelf's lamp caches and glowing fish."
+            "Fixed: no more white-then-black patches of light near the Twilight Shelf's lamp caches and glowing fish.",
+            "Fixed: characters sometimes drew plain white with no textures.",
+            "Fixed: the opening film no longer shows a black screen with crackling sound. It plays properly now, and if a PC can't show it, the opening scene plays live in the game instead."
           ]
         },
         {
           "name": "Audio",
           "items": [
             "Spoken lines now pause at questions, exclamations and trailing dots instead of reading straight through.",
-            "Opening a quest or talk window fades out every voice still playing, so lines no longer talk over each other."
+            "Opening a quest or talk window fades out every voice still playing, so lines no longer talk over each other.",
+            "Fixed: journal sounds are quieter, no longer crackle, and play one at a time."
           ]
         },
         {
@@ -82,7 +101,7 @@
           ]
         }
       ],
-      "patch": 1
+      "patch": 2
     },
     {
       "id": 12,
