@@ -2,7 +2,7 @@
   "releases": [
     {
       "id": 13,
-      "title": "Release 13.3",
+      "title": "Release 13.4",
       "date": "2026-11-13",
       "sections": [
         {
@@ -13,7 +13,9 @@
             "Two new Ancient seal arches on the Twilight Shelf: Pressure Station Nine and Edgewatch.",
             "Fewer named areas around Kelpwatch: quests now point you at the Blight Edge, the kelp north of camp and the wrecks south of it.",
             "Fixed: some Glowcoral on the Twilight Shelf were invisible and couldn't be harvested.",
-            "Safe-zone rings now show on the minimap and world map only once you have charted their area."
+            "Safe-zone rings now show on the minimap and world map only once you have charted their area.",
+            "Fixed a flat yellow slab under the coral houses.",
+            "Fixed: the Ancient seal gates' floating ring stones now look like real stone."
           ]
         },
         {
@@ -37,7 +39,16 @@
             "Fixed: the guild den no longer floats in the distance when you're in your own Den.",
             "Hold E to keep swinging at a gathering node. A node's weak spot now shows only on parts still standing, and its highlight follows the broken shape, so no ghost of the node is left behind.",
             "Fixed: standing in a current, your feet now ride with your body and you brace into the current, instead of being left behind.",
-            "Fixed: every body now runs with the human run, so a fishman's trailing foot no longer flicks out sideways each stride, and strafes use the human side steps."
+            "Fixed: every body now runs with the human run, so a fishman's trailing foot no longer flicks out sideways each stride, and strafes use the human side steps.",
+            "Fixed: on a new computer your character list showed every slot empty until the server answered. It now shows your real characters.",
+            "Fixed: sign-in and character claims always answer now, instead of waiting forever when the data service is slow.",
+            "Fixed: blight and the other status meters no longer stick on the HUD after a knock-out or a hop into your Den.",
+            "Other players' swings now show their attack animations.",
+            "Working townsfolk stop and talk to you when you start a conversation, a quest or their shop.",
+            "Jump and hold Space to rise straight up.",
+            "Map pings are now marked in the world: a soft beam of light in the pinger's color, with a ring on the ground.",
+            "Fixed: the opening scene's live version now always ends, even when the film can't play.",
+            "Players far from the servers (high ping) are no longer bitten by creatures after dashing out of reach: bites that land out of reach on your own screen now miss, and hits are judged where the creature was on the attacker's screen."
           ]
         },
         {
@@ -47,7 +58,9 @@
             "Contract suggestions start at level 3, and a suggestion that was waiting when you turned them off no longer pops up afterward.",
             "First steps are now a quest, A Bench of Your Own, in the quest log and tracker.",
             "Fixed: a high-level character in the Den could still see the opening's first-step objective.",
-            "Someone a quest needs you to talk to now has a gold ? over their head, on the compass, minimap and world map."
+            "Someone a quest needs you to talk to now has a gold ? over their head, on the compass, minimap and world map.",
+            "Fixed: the Bell Ledge edge lesson now counts anywhere on the rim between the two lanterns.",
+            "Fixed: a fishman's bench lesson now makes your own gun's bundle."
           ]
         },
         {
@@ -57,14 +70,17 @@
             "Fixed: selling at a trader sells only the item you picked; Sell 1 and Sell all no longer take the same item in other rarities or qualities too.",
             "Fixed: quick deposit puts medicine, flares, ammo and other kit onto a pile the chest already holds, and its message shows in the storage window.",
             "Fixed: Lamp Cells and the Quick Recharge perk now show an icon.",
-            "361 item, armor, kit, food, drink, tool and bag descriptions rewritten in plain sentences."
+            "361 item, armor, kit, food, drink, tool and bag descriptions rewritten in plain sentences.",
+            "Coral Dart Bundles can now only be learned and made by fishmen."
           ]
         },
         {
           "name": "Crafting",
           "items": [
             "Crafting lists show only recipes you have learned in the Knowledge tree (set pieces appear from their pattern). Patterns say Learn.",
-            "Away from a station, the bags' Crafting tab lists what you can make by hand first, then a Requires Station divider; station recipes say Needs a station."
+            "Away from a station, the bags' Crafting tab lists what you can make by hand first, then a Requires Station divider; station recipes say Needs a station.",
+            "The recipe panel shows materials as big squares under the words, with Craft and Track below.",
+            "New: a gold icon over a Den station when finished crafts are waiting to be taken."
           ]
         },
         {
@@ -82,7 +98,9 @@
             "The Knowledge tree shows at a glance what you can learn now, what needs more points, and what is out of reach.",
             "Fixed: the storage chest's level now reads the same everywhere.",
             "Fixed: Create Account and Login always answer: a click with something missing now says what, and the password rules show under the box, each lighting up as you meet it.",
-            "Updates download faster and are smaller: the launcher fetches more files at once and checks each as it arrives, and about 1,000 files (2 GB) of build backups that players never needed are no longer part of the download. Installs that already have them clear them out on the next update."
+            "Updates download faster and are smaller: the launcher fetches more files at once and checks each as it arrives, and about 1,000 files (2 GB) of build backups that players never needed are no longer part of the download. Installs that already have them clear them out on the next update.",
+            "What's New is now an Updates tab in the journal, instead of opening over the game as you land.",
+            "The pale chunk on health bars drains faster."
           ]
         },
         {
@@ -90,7 +108,10 @@
           "items": [
             "Fixed: no more white-then-black patches of light near the Twilight Shelf's lamp caches and glowing fish.",
             "Fixed: characters sometimes drew plain white with no textures.",
-            "Fixed: the opening film no longer shows a black screen with crackling sound. It plays properly now, and if a PC can't show it, the opening scene plays live in the game instead."
+            "Fixed: the opening film no longer shows a black screen with crackling sound. It plays properly now, and if a PC can't show it, the opening scene plays live in the game instead.",
+            "Fixed: knees now bend out over the toes, not in.",
+            "Walking on the seabed feels floaty again: longer, slower strides with the body and arms drifting through each step (since 13.3 it looked quick and mechanical).",
+            "Guns no longer flip upside down or twist in your hand while swimming (the harpoon rifle and pressure cannon were the worst); other players see them held right too."
           ]
         },
         {
@@ -110,7 +131,7 @@
           ]
         }
       ],
-      "patch": 3
+      "patch": 4
     },
     {
       "id": 12,
