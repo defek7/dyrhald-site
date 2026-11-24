@@ -2,7 +2,7 @@
   "releases": [
     {
       "id": 13,
-      "title": "Release 13.4",
+      "title": "Release 13.5",
       "date": "2026-11-13",
       "sections": [
         {
@@ -48,7 +48,9 @@
             "Jump and hold Space to rise straight up.",
             "Map pings are now marked in the world: a soft beam of light in the pinger's color, with a ring on the ground.",
             "Fixed: the opening scene's live version now always ends, even when the film can't play.",
-            "Players far from the servers (high ping) are no longer bitten by creatures after dashing out of reach: bites that land out of reach on your own screen now miss, and hits are judged where the creature was on the attacker's screen."
+            "Players far from the servers (high ping) are no longer bitten by creatures after dashing out of reach: bites that land out of reach on your own screen now miss, and hits are judged where the creature was on the attacker's screen.",
+            "Early elites and champions have less health at low levels (about a quarter less at level 1, easing to no change by level 10); normal creatures are unchanged.",
+            "Ambush lurkers now keep well away from every town's safe zone, and stay out of boss arenas (except the Vault Warden adds in Warden Prime's fight)."
           ]
         },
         {
@@ -111,7 +113,12 @@
             "Fixed: the opening film no longer shows a black screen with crackling sound. It plays properly now, and if a PC can't show it, the opening scene plays live in the game instead.",
             "Fixed: knees now bend out over the toes, not in.",
             "Walking on the seabed feels floaty again: longer, slower strides with the body and arms drifting through each step (since 13.3 it looked quick and mechanical).",
-            "Guns no longer flip upside down or twist in your hand while swimming (the harpoon rifle and pressure cannon were the worst); other players see them held right too."
+            "Guns no longer flip upside down or twist in your hand while swimming (the harpoon rifle and pressure cannon were the worst); other players see them held right too.",
+            "Fixed the sun's path: it now rises in the east and sets in the west, so shadows fall the right way.",
+            "Your knees no longer kink sideways for a moment when you stop walking.",
+            "Fish camp hut roofs no longer show light and dark streaks across the thatch.",
+            "The shallows (Kelpwatch, Tidewatch and the open shelf) are brighter by day; night and the deeper zones are unchanged.",
+            "Fixed harsh light and dark lines on the sunken trawler, barge and wreck section."
           ]
         },
         {
@@ -131,7 +138,7 @@
           ]
         }
       ],
-      "patch": 4
+      "patch": 5
     },
     {
       "id": 12,
